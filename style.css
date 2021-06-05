@@ -96,6 +96,10 @@ a {
     .btn {
         font-size: 0.9rem;
     }
+    #result-comment,
+    #message {
+        font-size: 1rem;
+    }
 }
 
 
