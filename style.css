@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    font-family:"Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+    line-height: 1.7;
+    color:#432;
+}
+a {
+    text-decoration:none;
+}
+
+/* body
+------------------------------------*/
+.container {
+    position: relative;
+}
+#js-question {
+    text-align: center;
+    width: 70%;
+    max-width: 1000px;
+    padding: 3vw 7vw;
+    font-size: 1.6rem;
+    margin: 10vh auto;
+    border-radius: 20px;
+    background: radial-gradient(rgb(183, 240, 221), lightgreen);
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.btn {
+    background-color: rgb(24, 24, 78);
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 1vw 3vw;
+}
+.btn:hover {
+    color: rgb(24, 24, 78);
+    background-color: white;
+}
+
+#result {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2vh 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.result-container h2 {
+    margin-top: 9vh;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 9vh;
+}
+#answer-number {
+    color: rgb(231, 91, 91);
+}
+
+#result-comment {
+    text-align: center;
+    font-size: 2rem;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10vh auto;
+}
+#message {
+    text-align: center;
+    font-size: 2rem;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* responsive
+-------------------------------*/
+@media screen and (max-width: 800px) {
+    #js-question {
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
